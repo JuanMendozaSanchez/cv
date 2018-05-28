@@ -400,6 +400,7 @@ div.institution2{
       width: 100%;
     }
 
+<<<<<<< HEAD
 }
 div.progress{
   border:2px solid #E8E8EE;
@@ -438,4 +439,6 @@ div.social{
 
 div.contact{
   margin-top: 7%;
+=======
+>>>>>>> 1876531b6fa5c9aa70a8ab8df6f7f0bd2119f485
 }
