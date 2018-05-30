@@ -35,11 +35,11 @@
     <div id="persiana">
       <h4 id="demo"></h4>
     </div>
-
+    
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
-          
+          <a href="language/spanish.html" id="languageEsp" data-toggle="tooltip" title="Traducir a Español" data-placement="bottom">Español </a>
           <div class="container-fluid" >
             <div class="row">
               <h1 class="cover-heading text-center">Juan Mendoza Sánchez <br><small>Computer Systems Engineer</small></h1>
@@ -52,7 +52,7 @@
                     </div>
                   </div>
                 </a>
-                <a data-toggle="modal" data-target="#about">
+                <a data-toggle="modal" data-target="#about" >
                   <div class="hexagon">
                     <div class="text">
                       <h3 class="icon"><span class="fa fa-address-card"></span></h3>
@@ -68,7 +68,7 @@
                     </div>
                   </div>
                 </a>
-                <a data-toggle="modal" data-target="#education">
+                <a data-toggle="modal" data-target="#education" >
                   <div class="hexagon">
                     <div class="text">
                       <h3 class="icon"><span class="fa fa-graduation-cap"></span></h3>
@@ -158,8 +158,11 @@
                   </div>
                   <div class="col-md-2"></div>
                 </div>
+                
                 <div class="col-md-12 modalFooter">
                   <p id="pie">Powered , by <a href="https://twitter.com/msalejan" id="twitter" target="blank">@salejan</a>.</p>
+                  <a onclick="cambiarModal('#resume','#contact')"  class="flechaLeft" data-toggle="tooltip" title="Contact" data-placement="right"><span class="fa fa-chevron-left"></span> <small>Previous</small></a>
+                <a onclick="cambiarModal('#resume','#about')" class="flechaRight" data-toggle="tooltip" title="About" data-placement="left"><small>Next</small> <span class="fa fa-chevron-right"></span></a>
                 </div>
               </div>
             </div>
@@ -202,15 +205,18 @@
                     <p class="text-justify data1">I have experience using FRAMEWORKS for web development and IDE's for the development of mobile or desktop systems (Android Studio, Unity, Matlab, NetBeans, Eclipse). I have developed it under MVC and some object oriented design patterns (Factory Pattern, Facade Pattern, Singleton Pattern, Observer Pattern, etc). I also have experience using design software (Blender, Photoshop, CorelDraw). I specialize in WEB development using various tools to create robust systems that meet the expectations of users.</p>
                   </div>
                   <div class="col-md-6 aboutCont">
-                    <p class="data"><b>Address:</b> 214 Nopal de Castilla Street, La Magueyera Viguera. Oaxaca, México. ZIP Code: 68276</p>
+                    <p class="data"><b>Address:</b> 416 Nopal de Castilla Street, La Magueyera Viguera. Oaxaca, México. ZIP Code: 68276</p>
                     <p class="data"><b>Date of birth:</b> January 11th, 1988</p>
                     <p class="data"><b>Language:</b> Spanish, English</p>
                     <p class="data"><b>Freelance:</b> Available</p>
                     
                   </div>
                 </div>
+                
                 <div class="col-md-12 modalFooter">
                   <p id="pie">Powered , by <a href="https://twitter.com/msalejan" id="twitter" target="blank">@salejan</a>.</p>
+                  <a onclick="cambiarModal('#about','#resume')"  class="flechaLeft" data-toggle="tooltip" title="Resume" data-placement="right"><span class="fa fa-chevron-left"></span> <small>Previous</small></a>
+                <a onclick="cambiarModal('#about','#experience')" class="flechaRight" data-toggle="tooltip" title="Experience" data-placement="left"><small>Next</small> <span class="fa fa-chevron-right"></span></a>
                 </div>
               </div>
               <!--<div class="modal-footer">
@@ -250,7 +256,7 @@
                             </ul>
                           </div>
                         </div>
-                        <div class="panel-footer">Marzo 2018 - Mayo 2018</div>
+                        <div class="panel-footer">March 2018 - May 2018</div>
                       </div>
 
                       <div class="panel panel-primary">
@@ -278,7 +284,7 @@
                               <li class="fa fa-arrow-right"> Development of Matlab scripts for image processing and articial vision.</li>
                               <li class="fa fa-arrow-right"> Development of scripts in JavaScript and HTML to perform wave animations from a given equation.</li>
                               <li class="fa fa-arrow-right"> Development of 3D animations carried out in Blender from Digital Holographic Interferometry experiments and Spectral Optical Coherence Tomography.</li>
-                              <li class="fa fa-arrow-right"> Development of a website for the researcher <a href="http://www.cio.mx/investigacion/manuel_ibarra/" target="blank">Dr. Manuel H. de la Torre Ibarra</a>, where animations previously developed were included.</li>
+                              <li class="fa fa-arrow-right"> Development of a website for the researcher <a href="http://www.cio.mx/investigacion/manuel_ibarra/" target="blank">PhD. Manuel H. de la Torre Ibarra</a>, where animations previously developed were included.</li>
                             </ul>
                           </div>
                         </div>
@@ -365,8 +371,11 @@
                     </div>
                   </div>
                 </div>
+                
                 <div class="col-md-12 modalFooter">
                   <p id="pie">Powered , by <a href="https://twitter.com/msalejan" id="twitter" target="blank">@salejan</a>.</p>
+                  <a onclick="cambiarModal('#experience','#about')"  class="flechaLeft" data-toggle="tooltip" title="About" data-placement="right"><span class="fa fa-chevron-left"></span> <small>Previous</small></a>
+                <a onclick="cambiarModal('#experience','#education')" class="flechaRight" data-toggle="tooltip" title="Education" data-placement="left"><small>Next</small> <span class="fa fa-chevron-right"></span></a>
                 </div>
               </div>
               <!--<div class="modal-footer">
@@ -434,8 +443,11 @@
                     <!--<h1 id="texto">Juan Mendoza Sánchez</h1>-->
                   </div>
                 </div>
+                
                 <div class="col-md-12 modalFooter" style="margin-top: 4rem;">
                   <p id="pie">Powered , by <a href="https://twitter.com/msalejan" id="twitter" target="blank">@salejan</a>.</p>
+                  <a onclick="cambiarModal('#education','#experience')"  class="flechaLeft" data-toggle="tooltip" title="Experience" data-placement="right"><span class="fa fa-chevron-left"></span> <small>Previous</small></a>
+                <a onclick="cambiarModal('#education','#skills')" class="flechaRight" data-toggle="tooltip" title="Skills" data-placement="left"><small>Next</small> <span class="fa fa-chevron-right"></span></a>
                 </div>
               </div>
               <!--<div class="modal-footer">
@@ -621,7 +633,7 @@
                     <div class="col-md-4">
                       <h2>Development methodologies</h2>
                       <div class="progress">
-                      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 30%;">
+                      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 80%;">
                         XP 80%
                       </div>
                     </div>
@@ -685,8 +697,11 @@
                     </div>
                   </div>
                 </div>
+                
                 <div class="col-md-12 modalFooter">
                   <p id="pie">Powered , by <a href="https://twitter.com/msalejan" id="twitter" target="blank">@salejan</a>.</p>
+                  <a onclick="cambiarModal('#skills','#education')"  class="flechaLeft" data-toggle="tooltip" title="Education" data-placement="right"><span class="fa fa-chevron-left"></span><small> Previous</small></a>
+                <a onclick="cambiarModal('#skills','#interest')" class="flechaRight" data-toggle="tooltip" title="Interests" data-placement="left"><small>Next</small> <span class="fa fa-chevron-right"></span></a>
                 </div>
               </div>
             </div>
@@ -799,8 +814,11 @@
                     </div>
                   </div>
                 </div>
+                
                 <div class="col-md-12 modalFooter interestFooter">
                   <p id="pie">Powered , by <a href="https://twitter.com/msalejan" id="twitter" target="blank">@salejan</a>.</p>
+                  <a onclick="cambiarModal('#interest','#skills')"  class="flechaLeft" data-toggle="tooltip" title="Skills" data-placement="right"><span class="fa fa-chevron-left"></span><small> Previous</small></a>
+                <a onclick="cambiarModal('#interest','#contact')" class="flechaRight" data-toggle="tooltip" title="Contact" data-placement="left"><small>Next</small> <span class="fa fa-chevron-right"></span></a>
                 </div>
               </div>
             </div>
@@ -857,8 +875,11 @@
                       <i class="fa fa-twitter fa-stack-1x"></i></span></a>
                   </div>
                 </div>
+                
                 <div class="col-md-12 modalFooter contact">
                   <p id="pie">Powered , by <a href="https://twitter.com/msalejan" id="twitter" target="blank">@salejan</a>.</p>
+                  <a onclick="cambiarModal('#contact','#interest')"  class="flechaLeft" data-toggle="tooltip" title="Interests" data-placement="right"><span class="fa fa-chevron-left"></span> <small>Previous</small></a>
+                <a onclick="cambiarModal('#contact','#resume')" class="flechaRight" data-toggle="tooltip" title="Resume" data-placement="left"><small>Next</small> <span class="fa fa-chevron-right"></span></a>
                 </div>
             </div>
           </div>
@@ -874,40 +895,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.changethewords.js"></script>
-    <script type="text/javascript">
-      $(window).on('load', function () {
-          //$("#persiana").css({visibility:"hidden",opacity:"0"});
-          //$("#persiana").animate({opacity:"0",width: "0"},"slow");
-          $("#persiana").animate({opacity:"0.4",width: "0"},{
-          duration: 3000,
-          easing: "linear",
-          step: function(x) {
-            $("#demo").text(Math.round(x * 100 / $( document ).width())  + "%");
-            //$('#demo').hide();  
-          }
-        });
-          $(".site-wrapper").fadeOut(0);
-          //$('#demo').hide();
-      });
-
-      $(document).ready(function() {
-          setTimeout(function() {
-              $("#demo").fadeOut(1000);
-          },3000);
-
-          setTimeout(function() {
-              $(".site-wrapper").fadeIn(3000);
-          },1000);
-      });
-
-      $(function() {
-      $("#changethewords").changeWords({
-        time: 3500,
-        animate: "tada",
-        selector: "span",
-        repeat:true
-      });
-    });
-    </script>
+    <script src="js/funciones.js" type="text/javascript"></script>
+    
   </body>
 </html>

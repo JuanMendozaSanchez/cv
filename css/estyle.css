@@ -413,7 +413,7 @@ div.progress:hover{
   transform: scale(1.1);
 }
 div.progress-bar{
-  font-size: 1.7rem;
+  font-size: 1.35rem;
   color: black;
 }
 
@@ -443,3 +443,65 @@ div.contact{
 div.contact,div.interestFooter{
   margin-top: 7%;
 }
+
+a#languageEsp{
+    position: relative;
+    border-radius: 5px;
+    color: white;
+    text-shadow:2px 2px black;
+    text-decoration: none;
+    padding: 7px;
+    top: 2.5rem;
+    font-size: 2rem;
+    background-image: url("../img/mex.png"); ; /* For browsers that do not support gradients */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background: linear-gradient(to right,green, white, red);/*Standard syntax (must be last) */ 
+  }
+
+  a#languageEng{
+    position: relative;
+    border-radius: 5px;
+    color: white;
+    text-shadow:2px 2px black;
+    text-decoration: none;
+    padding: 7px;
+    top: 2.5rem;
+    font-size: 2rem;
+    background-image: url("../img/eu.png"); ; /* For browsers that do not support gradients */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background: linear-gradient(to bottom right, blue, white, red);
+  }
+
+a.flechaRight, a.flechaLeft{
+  position: absolute;
+  font-size: 5rem;
+  color: #17EDDB;
+  text-align: center;
+  padding: 1rem;
+  opacity: 0.15;
+}
+
+a.flechaRight small, a.flechaLeft small{
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+a.flechaRight:hover, a.flechaLeft:hover{
+  opacity: 1;
+  color: #17EDDB;
+  text-decoration: none;
+}
+
+a.flechaRight{
+  float: right;
+  right:0%;
+}
+
+a.flechaLeft{
+  float: left;
+  left: 0%;
+}
+
+
