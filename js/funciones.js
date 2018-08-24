@@ -12,7 +12,7 @@
         });
           $(".site-wrapper").fadeOut(0);
           //$('#demo').hide();
-      });*/
+      });
 
       $(document).ready(function() {
           setTimeout(function() {
@@ -24,7 +24,7 @@
           },1000);
 
           $('[data-toggle="tooltip"]').tooltip();
-      });
+      });*/
 
       $(function() {
       $("#changethewords").changeWords({
