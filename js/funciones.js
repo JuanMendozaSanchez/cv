@@ -1,5 +1,5 @@
 
-      $(window).on('load', function () {
+      /*$(window).on('load', function () {
           //$("#persiana").css({visibility:"hidden",opacity:"0"});
           //$("#persiana").animate({opacity:"0",width: "0"},"slow");
           $("#persiana").animate({opacity:"0.4",width: "0"},{
@@ -12,7 +12,7 @@
         });
           $(".site-wrapper").fadeOut(0);
           //$('#demo').hide();
-      });
+      });*/
 
       $(document).ready(function() {
           setTimeout(function() {
